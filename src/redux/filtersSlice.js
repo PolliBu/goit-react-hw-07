@@ -16,7 +16,3 @@ const filtersSlice = createSlice({
 
 export const { setContactsFilter } = filtersSlice.actions;
 export const filtersReducer = filtersSlice.reducer;
-
-// const visibleUsers = contacts.filter(contact =>
-//   contact.name.toLowerCase().includes(nameFilter.toLowerCase()),
-// );
